@@ -27,5 +27,5 @@ Once you have results.txt use whatever way you want to make sure that it contain
 
 Using selenium automate a task that goes to your favourite flights site (expedia.com, kayak.com, cheapflights.com) and search for a flight from your city (or any city) to cancún, but create a test that passes when the price is $1000MXN or $50USD lower (depending on your currency) from the current price
 
-Yup, the test shuold fail, but using a task scheduler that runs the test everyday at any time you want
+Yup, the test should fail, but use a task scheduler that runs the test everyday (at any time you want) so we get noticed when the flight is cheaper
 
