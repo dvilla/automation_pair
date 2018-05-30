@@ -19,13 +19,15 @@ Create a method that takes one array as an input and returns the same array sort
 
 ## Exercise 2
 
-Do a curl to www.google.com to only get the headers and save it to a file "results.txt", if you don't have curl installed, check this same repo /results directory the file is already there 
+Do a curl to www.google.com to only get the headers and save it to a file "results.txt", if you don't have curl installed, check this same repo /results directory, the file is already there 
 
-Once you have results.txt use whatever way you want to make sure that it contains a "200 OK" that's it
+Once you have results.txt create a test to make sure that it contains a "200 OK"
+
+That's it
 
 ## Exercise 3 
 
-Using selenium automate a task that goes to your favourite flights site (expedia.com, kayak.com, cheapflights.com) and search for a flight from your city (or any city) to cancún, but create a test that passes when the price is $1000MXN or $50USD lower (depending on your currency) from the current price
+Use selenium to automate a task that goes to your favourite flights site (expedia.com, kayak.com, cheapflights.com) and search for a flight from your city (or any city) to cancún, any dates, just one week of difference between departure and arrival, then create a test that passes when the price is $1000MXN or $50USD lower (depending on your currency) from the current price
 
-Yup, the test should fail, but use a task scheduler that runs the test everyday (at any time you want) so we get noticed when the flight is cheaper
+Yup, the test should fail at first, but use a task scheduler that runs the test everyday (at any time you want) so we get noticed when the flight is cheaper
 
