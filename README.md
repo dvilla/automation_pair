@@ -13,6 +13,9 @@
 2. Communicate what you are doing, don't be shy, ask questions, explain your solutions
 3. Read carefully and if in doubt ask questions
 
+## Time
+- 1:30
+
 ## Exercise 1
 
 Create a method that takes one array as an input and returns the same array sorted, after that create 3 test cases (or more if you want) to assert that array is sorted
