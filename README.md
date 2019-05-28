@@ -30,7 +30,5 @@ That's it
 
 ## Exercise 3 
 
-Use selenium to automate a task that goes to your favourite flights site (expedia.com, kayak.com, cheapflights.com) and search for a flight from your city (or any city) to cancún, any dates, just one week of difference between departure and arrival, then create a test that passes when the price is $1000MXN or $50USD lower (depending on your currency) from the current price
-
-Yup, the test should fail at first, but use a task scheduler that runs the test everyday (at any time you want) so we get noticed when the flight is cheaper
+Use selenium to automate a task that goes to expedia.com and search for a flight from your city (or any city) to cancún, any dates, just one week of difference between departure and arrival, any number of guests, then sort the results by price: lower to higher (if they are not already sorted) then create a method that verify that the prices are indeed sorted.
 
